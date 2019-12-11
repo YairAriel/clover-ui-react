@@ -1,8 +1,7 @@
 **Provides a decorated input text element**
 
 ```jsx
-import TextField from "./TextField";
-import Flex from "../Flex/Flex";
+import { TextField, Flex } from "clover-ui-react";
 
 <Flex justify="space-around">
     <TextField labelText="Input label" placeholder="Type here"/>
@@ -12,8 +11,7 @@ import Flex from "../Flex/Flex";
 
 #### **Label Colors**
 ```jsx
-import TextField from "./TextField";
-import Flex from "../Flex/Flex";
+import { TextField, Flex } from "clover-ui-react";
 
 <Flex justify="space-around">
     <TextField labelText="Input label" placeholder="Type here" labelColor="rgb(220, 53, 69)"/>
@@ -23,8 +21,7 @@ import Flex from "../Flex/Flex";
 
 #### **Text Colors**
 ```jsx
-import TextField from "./TextField";
-import Flex from "../Flex/Flex";
+import { TextField, Flex } from "clover-ui-react";
 
 <Flex justify="space-around">
     <TextField labelText="Input label" placeholder="Type here" value="Default" onChange={() => {}}/>
@@ -34,8 +31,7 @@ import Flex from "../Flex/Flex";
 
 #### **More Characters**
 ```jsx
-import TextField from "./TextField";
-import Flex from "../Flex/Flex";
+import { TextField, Flex } from "clover-ui-react";
 
 <Flex justify="space-around">
     <TextField labelText="Rounded" placeholder="Type here" rounded/>

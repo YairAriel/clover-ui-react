@@ -1,8 +1,7 @@
 **Buttons are used to make common actions immediately visible and easy to perform with one click, tap, or keypress**
 
 ```jsx
-import Button from "./Button";
-import Flex from "../Flex/Flex";
+import { Button, Flex } from "clover-ui-react";
 
 <Flex>
     <Button>Button</Button>
@@ -13,8 +12,7 @@ import Flex from "../Flex/Flex";
 
 #### **Colors**
 ```jsx
-import Button from "./Button";
-import Flex from "../Flex/Flex";
+import { Button, Flex } from "clover-ui-react";
 
 <Flex>
     <Button>Default</Button>
@@ -27,8 +25,7 @@ import Flex from "../Flex/Flex";
 
 #### **Sizes**
 ```jsx padded
-import Button from "./Button";
-import Flex from "../Flex/Flex";
+import { Button, Flex } from "clover-ui-react";
 
 <Flex align="center">
     <Button>Default</Button>
@@ -38,8 +35,7 @@ import Flex from "../Flex/Flex";
 
 #### **Round / Full width**
 ```jsx
-import Button from "./Button";
-import Flex from "../Flex/Flex";
+import { Button, Flex } from "clover-ui-react";
 
 <Flex column align="center">
   <Button round>round</Button>

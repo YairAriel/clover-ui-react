@@ -1,15 +1,14 @@
 **This component is used to display wait states**
 
 ```jsx
-import Progress from "./Progress";
+import { Progress } from "clover-ui-react";
 
 <Progress />
 ```
 
 #### **Colors**
 ```jsx
-import Progress from "./Progress";
-import Flex from "../Flex/Flex";
+import { Progress, Flex } from "clover-ui-react";
 
 <Flex justify="space-around" align="center">
     <Progress color="#FFC107" />
@@ -21,8 +20,7 @@ import Flex from "../Flex/Flex";
 
 #### **Sizes**
 ```jsx
-import Progress from "./Progress";
-import Flex from "../Flex/Flex";
+import { Progress, Flex } from "clover-ui-react";
 
 <Flex justify="space-around" align="center" padding="1em">
     <Progress size="small" />
@@ -33,8 +31,7 @@ import Flex from "../Flex/Flex";
 
 #### **Bars**
 ```jsx
-import Progress from "./Progress";
-import Flex from "../Flex/Flex";
+import { Progress, Flex } from "clover-ui-react";
 
 <Flex justify="space-around" align="center">
     <Progress bars="2" />

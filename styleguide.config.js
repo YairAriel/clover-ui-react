@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   webpackConfig: {
     module: {
@@ -10,4 +12,9 @@ module.exports = {
       ]
     }
   },
+  title: "React Components Library For The Clover Casino Project",
+  styleguideDir: "dist-docs",
+  moduleAliases: {
+    "clover-ui-react": path.resolve(__dirname, "src")
+  }
 };
