@@ -8,7 +8,8 @@ const Flex = props => {
       justify={props.justify} 
       align={props.align}
       margin={props.margin}
-      padding={props.padding}>
+      padding={props.padding}
+      background={props.background}>
         {props.children}
     </Wrapper>
   );
@@ -23,6 +24,7 @@ const Wrapper = styled.div`
   padding: ${props => props.padding ? props.padding : 'unset'};
   height: 100%;
   box-sizing: border-box;
+  background: ${props => props.background ? props.background : 'none'};
 `
 
 export default Flex;

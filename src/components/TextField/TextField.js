@@ -9,7 +9,7 @@ const TextField = props => {
       <Wrapper>
         <Label color={props.labelColor} data-testid="label">{props.labelText}</Label>
         <Input
-          type="text" 
+          type={props.type} 
           placeholder={props.placeholder}
           disabled={props.disabled}
           textColor={props.textColor}
@@ -29,10 +29,10 @@ const TextField = props => {
 };
 
 const Wrapper = styled.div`
-    ${font}
+    ${font};
     display: flex;
     flex-direction: column;
-`;
+`
 
 const Label = styled.label`
     font-size: 1.5em;

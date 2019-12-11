@@ -18,9 +18,8 @@ const Button = props => {
 }
 
 const Wrapper = styled.button`
-  ${font}
+  ${font};
   font-weight: bold;
-  letter-spacing: 2px;
   border: none;
   color: ${props => props.disabled ? props.theme.colors.disabledText : props.theme.colors.text};
   background: ${props => props.disabled ? props.theme.colors.disabled : 
@@ -33,6 +32,7 @@ const Wrapper = styled.button`
   font-size: ${props => props.large ? '9.375vw' : '1em'};
   margin: .5em;
   box-shadow: ${props => props.round ? '1px 1px 10px #272121' : 'none'};
+  font-weight: bold;
 
   &:focus {
     outline: none;

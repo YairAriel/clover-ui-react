@@ -9,7 +9,9 @@ const Card = props => {
         <Wrapper 
           width={props.width} 
           height={props.height}
-          dark={props.dark}>
+          dark={props.dark}
+          padding={props.padding}
+          margin={props.margin}>
             {props.children}
         </Wrapper>
       </ThemeProvider>
@@ -17,14 +19,14 @@ const Card = props => {
 }
 
 const Wrapper = styled.div`
-  ${font}
+  ${font};
   box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.59);
-  padding: 1em;
-  margin: 1em;
+  margin: ${props => props.margin ? props.margin : 'unset'};
+  padding: ${props => props.padding ? props.padding : 'unset'};
   width: ${props => props.width ? props.width : 'inherit'};
   height: ${props => props.height ? props.height : 'inherit'};
-  background: ${props => props.dark ? '#272121' : 'inherit'};
-  color: ${props => props.dark ? '#FFFFFF' : 'inherit'};
+  background: ${props => props.dark ? '#272121' : '#FFFFFF'};
+  color: ${props => props.dark ? '#FFFFFF' : '#111111'};
   box-sizing: border-box;
 `
 

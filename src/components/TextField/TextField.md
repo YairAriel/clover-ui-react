@@ -48,6 +48,7 @@ import Flex from "../Flex/Flex";
 
 Name | Type | Default | Description |
 -----|----- | ------- | ----------- |
+`type` | `string` | `text` | Set the input type; `text`, `password`, `email` etc.
 `placeholder` | `string` | `''` | Placeholder text
 `disabled` | `Boolean` | `false` | Removes the ability to type in the component
 `labelColor` | `string` | ![#000000](https://placehold.it/15/000000/000000?text=+) `#000000` |  Applies the label's color (can receive any valid CSS color)
